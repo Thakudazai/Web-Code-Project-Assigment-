@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Vutha | Content Creator, Video Editor & Cameraman</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="header">
+    <a href="#home" class="logo">Vutha.</a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <button
+        id="darkModeToggle"
+        class="dark-btn"
+        aria-label="Toggle dark mode"
+      >
+        <i class="fa-solid fa-moon"></i>
+      </button>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+  <section class="hero home section" id="home">
+    <div class="hero-content home-content">
+      <div class="availability">
+        <span class="availability-dot"></span>
+        Available for International Opportunities & Relocation
+      </div>
+
+      <p class="hero-greeting">Hello, I'm</p>
+
+      <h1>Vutha</h1>
+
+      <h2>
+        I'm a
+        <span class="typing"></span>
+        <span class="cursor">|</span>
+      </h2>
+
+      <p class="hero-description">
+        I create engaging digital experiences through video editing, professional camera work,
+        cinematography, graphic design, and clean web development. Open to international opportunities,
+        relocation worldwide, remote work, and creative productions.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">
+          View My Work
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <a href="#contact" class="btn btn-outline">
+          Contact Me
+          <i class="fa-solid fa-paper-plane"></i>
+        </a>
+      </div>
+
+      <div class="social-links social-icons">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="hero-image home-image">
+      <div class="image-wrapper">
+        <img src="profile-img.jpg" alt="Vutha profile photo" />
+      </div>
+
+      <div class="floating-card card-one">
+        <i class="fa-solid fa-video"></i>
+        <span>Video Creator</span>
+      </div>
+
+      <div class="floating-card card-two">
+        <i class="fa-solid fa-camera"></i>
+        <span>Camera & Drone</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= SKILLS ================= -->
+  <section class="skills section" id="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <p class="section-subtitle">
+      Creative, camera, and digital skills I use to produce high-impact content.
+    </p>
+
+    <div class="skills-grid skills-container">
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-camera-retro"></i>
+        </div>
+        <h3>Cameraman & Cinematography</h3>
+        <p>
+          Camera operation, shooting on Sony, Canon, and Fujifilm systems. Framing, lighting,
+          gimbal movements, and visual composition.
+        </p>
+        <div class="skill-tags">
+          <span>Sony</span>
+          <span>Canon</span>
+          <span>Fujifilm</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-film"></i>
+        </div>
+        <h3>Video Editing & Color Grading</h3>
+        <p>
+          Professional cuts, sound design, transitions, visual effects, and color grading for cinematic
+          footage and viral short-form media.
+        </p>
+        <div class="skill-tags">
+          <span>DaVinci Resolve</span>
+          <span>Premiere Pro</span>
+          <span>CapCut</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-clapperboard"></i>
+        </div>
+        <h3>Content Creation & Storytelling</h3>
+        <p>
+          End-to-end media production: concept ideation, scripting, shooting, social media content,
+          vlogs, and digital campaigns.
+        </p>
+        <div class="skill-tags">
+          <span>Vlog</span>
+          <span>Social Media</span>
+          <span>Storytelling</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-pen-nib"></i>
+        </div>
+        <h3>Graphic Design</h3>
+        <p>
+          Designing high-CTR thumbnails, posters, branding assets, social media banners, and promotional artwork.
+        </p>
+        <div class="skill-tags">
+          <span>Photoshop</span>
+          <span>Canva</span>
+          <span>Branding</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <h3>Web Development</h3>
+        <p>
+          Building modern, fully responsive websites, landing pages, and interactive UI with clean HTML, CSS, and JavaScript.
+        </p>
+        <div class="skill-tags">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>VS Code</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <h3>Creative Production Tools</h3>
+        <p>
+          Experienced in complete multimedia suites, encoding standards, audio processing, and digital asset management.
+        </p>
+        <div class="skill-tags">
+          <span>Studio Tools</span>
+          <span>Audio</span>
+          <span>Rendering</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="software-section">
+      <h3>Tools & Ecosystems</h3>
+      <div class="software-list">
+        <div class="software-item">
+          <i class="fa-solid fa-film"></i>
+          <span>DaVinci Resolve</span>
+        </div>
+        <div class="software-item">
+          <i class="fa-solid fa-play"></i>
+          <span>Premiere Pro</span>
+        </div>
+        <div class="software-item">
+          <i class="fa-solid fa-scissors"></i>
+          <span>CapCut</span>
+        </div>
+        <div class="software-item">
+          <i class="fa-solid fa-image"></i>
+          <span>Photoshop</span>
+        </div>
+        <div class="software-item">
+          <i class="fa-solid fa-palette"></i>
+          <span>Canva</span>
+        </div>
+        <div class="software-item">
+          <i class="fa-solid fa-code"></i>
+          <span>VS Code</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="experience section" id="experience">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-subtitle">
+      My background in media production, camera work, and digital operations.
+    </p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-video"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Media Production</span>
+          <h3>Content Creator, Video Editor & Cameraman</h3>
+          <p>
+            Operating camera systems, capturing events, directing video shoots, editing YouTube and social media content,
+            and producing graphics and thumbnails.
+          </p>
+          <div class="timeline-tags">
+            <span>Videography</span>
+            <span>Editing</span>
+            <span>Storytelling</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-hotel"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Hospitality & Service</span>
+          <h3>Receptionist & Reservation Specialist</h3>
+          <p>
+            Guest relations, reservations management, international client communication, and cross-departmental team coordination.
+          </p>
+          <div class="timeline-tags">
+            <span>Client Service</span>
+            <span>Communication</span>
+            <span>Organization</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon"><i class="fa-solid fa-palette"></i></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Design & Web</span>
+          <h3>Graphic Designer & Web Builder</h3>
+          <p>
+            Designing brand visuals, posters, and YouTube media assets while building fast responsive web portfolios and landing pages.
+          </p>
+          <div class="timeline-tags">
+            <span>Graphic Design</span>
+            <span>HTML & CSS</span>
+            <span>UI Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="projects section" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <p class="section-subtitle">
+      A selection of my cre ative videos, camera work, designs, and web builds.
+    </p>
+
+    <div class="project-filters filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="video">Video</button>
+      <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+      <button class="filter-btn" data-filter="photography">Photography</button>
+      <button class="filter-btn" data-filter="web">Web</button>
+    </div>
+
+    <div class="projects-container project-container">
+      <div class="project-card video">
+        <div class="project-image">
+          <img src="project-video.jpg" alt="Video project" />
+          <div class="project-overlay"><i class="fa-solid fa-play"></i></div>
+        </div>
+        <div class="project-info">
+          <span>Video</span>
+          <h3>Cinematic Travel & Vlog</h3>
+          <p>Cinematic travel video, camera composition, and narrative sound grading.</p>
+        </div>
+      </div>
+
+      <div class="project-card graphic">
+        <div class="project-image">
+          <img src="project-design.jpg" alt="Graphic design project" />
+          <div class="project-overlay"><i class="fa-solid fa-pen-nib"></i></div>
+        </div>
+        <div class="project-info">
+          <span>Graphic Design</span>
+          <h3>Thumbnails & Social Assets</h3>
+          <p>High-conversion YouTube thumbnails, key art, and social promotional graphics.</p>
+        </div>
+      </div>
+
+      <div class="project-card photography">
+        <div class="project-image">
+          <img src="project-photo.jpg" alt="Photography project" />
+          <div class="project-overlay"><i class="fa-solid fa-camera"></i></div>
+        </div>
+        <div class="project-info">
+          <span>Photography</span>
+          <h3>Portraits & Cultural Landmark Shoots</h3>
+          <p>Sony & Canon shooting, natural lighting portraits, and event coverage.</p>
+        </div>
+      </div>
+
+      <div class="project-card web">
+        <div class="project-image">
+          <img src="project-web.jpg" alt="Web design project" />
+          <div class="project-overlay"><i class="fa-solid fa-code"></i></div>
+        </div>
+        <div class="project-info">
+          <span>Web Design</span>
+          <h3>Responsive Modern Website</h3>
+          <p>Clean, mobile-first responsive portfolio website with theme toggles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= ABOUT ================= -->
+  <section class="about section" id="about">
+    <div class="about-container">
+      <div class="about-image">
+        <img src="about-img.jpg" alt="Vutha working creatively" />
+      </div>
+
+      <div class="about-content">
+        <span class="about-label">About Me</span>
+        <h2 class="section-title" style="text-align: left; margin-bottom: 15px;">
+          Creative Mind. <span>Visual Storyteller.</span>
+        </h2>
+
+        <p>
+          I am Vutha, a multidisciplinary creative professional combining hands-on camera operation,
+          cinematic video editing, graphic design, and clean web development.
+        </p>
+
+        <p>
+          I manage full production workflows: planning angles, shooting with Sony, Canon, and Fujifilm systems,
+          color grading in DaVinci Resolve, creating high-impact thumbnails, and deploying fast websites.
+        </p>
+
+        <p>
+          I am actively looking for international opportunities, relocation (Switzerland, Europe, and worldwide),
+          or remote production roles where I can contribute my visual skills to an ambitious team.
+        </p>
+
+        <div class="about-stats">
+          <div class="stat">
+            <strong>Video</strong>
+            <span>Editing & Color</span>
+          </div>
+          <div class="stat">
+            <strong>Camera</strong>
+            <span>Photo & Video Ops</span>
+          </div>
+          <div class="stat">
+            <strong>Web</strong>
+            <span>HTML & CSS</span>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn">
+          Let's Work Together
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+  <section class="contact section" id="contact">
+    <h2 class="section-title">Let's Connect & Work Together</h2>
+    <p class="section-subtitle">
+      Open to full-time positions, contract roles, international opportunities, and creative productions.
+    </p>
+
+    <div class="contact-container">
+      <!-- LEFT: CONTACT DETAILS & HIRING STATUS -->
+      <div class="contact-info">
+        <div class="hiring-badge">
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Open to International Hiring & Relocation</span>
+        </div>
+
+        <h3>Ready to bring creative value to your team.</h3>
+
+        <p>
+          Seeking roles in <strong>Video Editing</strong>, <strong>Cameraman / Cinematography</strong>,
+          <strong>Content Creation</strong>, <strong>Graphic Design</strong>, or <strong>Web Design</strong>.
+          I am open to international relocation, remote positions, and creative collaborations.
+        </p>
+
+        <!-- Email -->
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <span>Direct Email</span>
+            <p><a href="mailto:kesvutha1@gmail.com">kesvutha1@gmail.com</a></p>
+          </div>
+        </div>
+
+        <!-- Telegram -->
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa-brands fa-telegram"></i></div>
+          <div>
+            <span>Direct Message</span>
+            <p><a href="https://t.me/YOUR_TELEGRAM_USERNAME" target="_blank" rel="noopener noreferrer">Chat on Telegram</a></p>
+          </div>
+        </div>
+
+        <!-- Location -->
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fa-solid fa-earth-americas"></i></div>
+          <div>
+            <span>Location & Availability</span>
+            <p>Based in Cambodia • <strong>Open to Relocation Worldwide & Remote</strong></p>
+          </div>
+        </div>
+
+        <!-- CV Button -->
+        <div class="contact-cv-box">
+          <a href="resume.pdf" download="Vutha_CV.pdf" class="btn cv-btn">
+            <i class="fa-solid fa-file-arrow-down"></i>
+            Download My CV
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT: JOB INQUIRY FORM -->
+      <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name / Company Name" required />
+        <input type="email" name="email" placeholder="Your Work Email" required />
+
+        <select name="opportunity_type" class="form-select" required>
+          <option value="" disabled selected>Select Opportunity Type</option>
+          <option value="full-time">Full-Time Job Offer</option>
+          <option value="relocation">International Relocation Role</option>
+          <option value="part-time">Part-Time / Contract</option>
+          <option value="freelance">Freelance Production Project</option>
+          <option value="interview">Interview Invitation</option>
+          <option value="other">Other Inquiry</option>
+        </select>
+
+        <textarea name="message" rows="6" placeholder="Tell me about the role, project requirements, or company details..." required></textarea>
+
+        <button type="submit" class="btn">
+          Send Job Inquiry
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-logo">Vutha.</div>
+    <p>Content Creator • Video Editor • Cameraman • Graphic Designer • Web Developer</p>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+
+    <p class="copyright">© 2026 Vutha. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
